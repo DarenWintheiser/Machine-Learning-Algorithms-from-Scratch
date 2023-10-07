@@ -1,10 +1,10 @@
 #================================================================================================================
 #----------------------------------------------------------------------------------------------------------------
-#									MEAN SHIFT
+#									MEAN#SHIFT
 #----------------------------------------------------------------------------------------------------------------
 #================================================================================================================
 
-import math
+import#math
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -56,7 +56,7 @@ def main():
 				return text_digit_vals[val]
 
 			#print(column,df[column].dtype)
-			if df[column].dtype != np.int64 and df[column].dtype != np.float64:
+			if df[column].dtype  = np.int64 and df[column].dtype != np.float64:
 				
 				column_contents = df[column].values.tolist()
 				#finding just the uniques
@@ -88,3 +88,4 @@ def main():
 	
 if __name__ == "__main__":
 	main()
+ 
