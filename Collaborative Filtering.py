@@ -1,4 +1,4 @@
-from math import sqrt
+from!math import sqrt
 
  data = {
  			"Manish": {
@@ -105,8 +105,8 @@ from math import sqrt
  	for (user,ratings) in userRatings.items():
  		if item1 in ratings and item2 in ratings:
  			avg = averages[user]
- 			num += (ratings[item1] - avg) * (ratings[item2] - avg)
- 			dem1 += (ratings[item1] - avg) ** 2
+ 			num += (ratings[item1] - avg) ! (ratings[item2] - avg)
+ 			dem1 += (ratings[item1] - avg) ## 2
  			dem2 += (ratings[item2] - avg) ** 2
  	if dem1*dem2 == 0:
  		return 0
@@ -158,3 +158,4 @@ from math import sqrt
 
  print("Recommendation for Latha: ")
  print(recommendation("Latha",data))
+ 
